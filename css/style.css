@@ -56,7 +56,8 @@ nav {
 
 @font-face {
     font-family: 'Phosphate', serif;
-    src: url(images/Phosphate.ttc) format("truetype");
+    src: url('images/Phosphate.ttc') format("truetype");
+	src: local('images/Phosphate.ttc');
 }
 
 #slide h2 {
