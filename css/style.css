@@ -1,0 +1,656 @@
+* {
+	margin: 0px;
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', Roboto, Arial, Sans-serif;
+	box-sizing: border-box;
+
+}
+
+body {
+	background-color: #fff;
+	text-align: center;
+}
+
+header {
+	height: 110px;
+	background-color: #fec30d;
+}
+
+
+.logo,
+img {
+	text-align: center;
+	padding-top: 5px;
+	height: 95px;
+
+}
+
+nav {
+	display: none;
+}
+
+
+#slide {
+	background-image: url(../images/Empire.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+
+}
+
+#slide h1 {
+	text-align: center;
+	font-family: 'helvetica', serif;
+	font-weight: lighter;
+	font-variant-caps: all-small-caps;
+	font-size: 35px;
+	color: #fff;
+	word-wrap: break-word;
+	padding-top: 45%;
+	margin: 0;
+	width: 100%;
+	text-shadow: 1px 1px 10px #444;
+
+}
+
+#slide h2 {
+	text-align: center;
+	font-family: 'Phosphate', serif;
+	font-weight: lighter;
+	font-variant-caps: all-small-caps;
+	font-size: 110px;
+	color: #fff;
+	word-wrap: break-word;
+	margin: 0;
+	width: 100%;
+	text-shadow: 1px 1px 10px #444;
+	line-height: 50px;
+}
+
+footer {
+	font-size: 12px;
+	line-height: 16px;
+	width: 100%;
+	height: 74px;
+	background-color: #fec30d;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	padding: 0px 0px 5px 0px;
+}
+
+footer ul {
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	padding: 0px;
+}
+
+footer ul li {
+	width: 100%;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
+footer ul li a .ikon {
+	width: 32px;
+	height: auto;
+	padding: 0px;
+}
+
+footer ul li a .cirkel {
+	width: 32px;
+	height: auto;
+	padding: 0px;
+
+}
+
+footer ul li a {
+	color: #fff;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+
+}
+
+
+#knap a {
+	line-height: 20px;
+	background-color: #fec30d;
+	margin: 50px 20px 0px 20px;
+	padding: 3px 7px 5px 7px;
+	display: inline-block;
+	font-variant-caps: all-petite-caps;
+	font-size: 22px;
+	color: #fff;
+	box-shadow: 1px 1px 10px #444;
+	text-decoration: none;
+}
+
+
+section {
+	height: 100%;
+}
+
+
+/* Column container */
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+/* CONTENT 2 */
+
+.content2 {
+	flex: 100%;
+	padding: 20px 20px 20px 20px;
+}
+
+.content2 img {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 20px 0px;
+}
+
+
+.content2 li {
+	font-size: 14px;
+	padding-bottom: 5px;
+	color: dimgray;
+}
+
+.content2 p {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-size: 14px;
+	line-height: 19px;
+	color: dimgray;
+}
+
+
+.content2 h1 {
+	font-family: 'Sumana', serif;
+	font-variant-caps: all-petite-caps;
+	color: dimgray;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+.content2 h2 {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-size: 16px;
+	padding-bottom: 5px;
+	color: dimgray;
+}
+
+.content2 p {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-size: 14px;
+	line-height: 19px;
+	color: dimgray;
+	margin-right: 5%;
+}
+
+
+.content2 a {
+	line-height: 25px;
+	background-color: #fec30d;
+	padding: 2px 20px;
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	box-shadow: 1px 4px 20px #bababa;
+	width: inherit;
+	text-align: center;
+}
+
+.content3 {
+	flex: 100%;
+	padding: 20px 20px 20px 20px;
+}
+
+.content3 img {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 20px 0px;
+}
+
+
+.content3 li {
+	font-size: 14px;
+	padding: 5px;
+	color: dimgray;
+	text-align: left;
+}
+
+.content3 p {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-size: 14px;
+	line-height: 19px;
+	color: dimgray;
+	text-align: justify;
+}
+
+
+.content3 h1 {
+	font-family: 'Sumana', serif;
+	font-variant-caps: all-petite-caps;
+	color: dimgray;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+.content3 h1 a {
+	text-decoration: none;
+	font-family: 'Sumana', serif;
+	padding-bottom: 10px;
+
+}
+
+.content3 h2 {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-size: 16px;
+	padding-bottom: 5px;
+	color: dimgray;
+}
+
+.content3 h4 {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-size: 14px;
+	font-weight: lighter;
+	padding-bottom: 15px;
+	color: dimgray;
+}
+
+.content3 p {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-size: 14px;
+	line-height: 19px;
+	color: dimgray;
+}
+
+
+.content3 a {
+	color: darkslategray;
+	text-decoration: underline;
+}
+
+
+form {
+	padding: 20px 20px 20px 20px;
+	text-align: left;
+	font-family: 'helvetica ultra light';
+	color: dimgray;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+form h1 {
+	font-family: 'Sumana', serif;
+	font-variant-caps: all-petite-caps;
+	color: dimgray;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+form h2 {
+	font-family: 'Sumana', serif;
+	font-variant-caps: all-petite-caps;
+	color: dimgray;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+	padding-bottom: 10px;
+	display: inline;
+}
+
+form p {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-size: 14px;
+	color: dimgray;
+	display: inline;
+
+}
+
+#info {
+	line-height: 4px !important;
+	font-size: 3px !important;
+
+}
+
+
+#totals {
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	padding: 20px 20px 20px 20px;
+	line-height: 25px;
+	font-size: 16px;
+	border: none;
+	font-weight: 500;
+}
+
+
+/* FJERNER INDHOLD FRA INDEX PÅ SMARTPHONE OG TABLET */
+
+@media (max-width: 1024px) {
+
+	.content {
+		display: none;
+	}
+	aside {
+		display: none;
+	}
+
+}
+
+
+/* TABLET */
+
+@media (min-width:768px) and (max-width:1024px) {
+
+
+	header {
+		height: 150px;
+	}
+
+
+	.logo,
+	img {
+		height: 135px;
+	}
+
+	#slide h1 {
+		font-size: 45px;
+		padding-top: 35%;
+	}
+
+	#slide h2 {
+		font-size: 150px;
+		line-height: 60px;
+	}
+
+	#knap {
+		margin: 60px 20px 0px 20px;
+		font-size: 25px;
+
+	}
+
+
+	header h1 {
+		font-family: 'Sumana', serif;
+		font-weight: 700;
+		font-size: 80px;
+		color: #fff;
+		word-wrap: break-word;
+		padding-top: 20%;
+		margin: 0;
+		width: 100%;
+		text-shadow: 1px 4px 15px #bababa;
+		line-height: 100px;
+	}
+
+	header h2 {
+		font-family: 'Sumana', serif;
+		line-height: 65px;
+		font-size: 45px;
+		color: #fff;
+		word-wrap: break-word;
+		margin: 0;
+		width: 100%;
+		text-shadow: 1px 4px 15px #bababa;
+
+	}
+}
+
+/* DESKTOP */
+
+@media (min-width:1025px) and (max-width:2200px) {
+
+
+	header {
+		height: 140px;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+
+	.logo,
+	img {
+		text-align: left;
+		height: 125px;
+		width: auto;
+
+	}
+
+	nav {
+		display: contents;
+
+	}
+
+
+	nav ul {
+		float: right;
+		display: -webkit-flex;
+		display: flex;
+		padding: 0px;
+	}
+
+	nav ul li {
+		width: 100%;
+		color: #fff;
+		display: block;
+		text-decoration: none;
+		padding: 50px 0px 10px 40px;
+
+	}
+
+
+	nav ul li a {
+		color: #fff;
+		display: block;
+		text-decoration: none;
+	}
+
+	nav ul li a:hover {
+		color: #d4a30b;
+	}
+
+
+	#slide {
+		background-image: url(../images/skyline.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center bottom 30%;
+		height: 70vh;
+
+	}
+
+	#slide h1 {
+		font-size: 45px;
+		padding-top: 10%;
+
+	}
+
+	#slide h2 {
+		font-size: 140px;
+		line-height: 60px;
+	}
+
+	/* Main column content */
+	/* Column container */
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		margin-right: 14%;
+		margin-left: 14%;
+	}
+
+
+	.content {
+		flex: 33%;
+		padding: 80px 20px 20px 20px;
+	}
+
+	.content img {
+		width: 100%;
+		height: auto;
+		padding: 0px 0px 20px 0px;
+	}
+
+	.content h1 {
+		font-family: 'Sumana', serif;
+		font-variant-caps: all-petite-caps;
+		color: dimgray;
+		font-weight: 700;
+		font-size: 35px;
+		line-height: 30px;
+		padding-bottom: 10px;
+	}
+	
+	.content li {
+		font-size: 14px;
+		padding-bottom: 5px;
+		color: dimgray;
+	}
+
+	.content p {
+		font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+		font-size: 14px;
+		line-height: 19px;
+		color: dimgray;
+		margin-right: 5%;
+	}
+
+
+	.content a {
+		line-height: 25px;
+		background-color: #fec30d;
+		padding: 2px 20px;
+		display: inline-block;
+		font-size: 16px;
+		color: #fff;
+		text-decoration: none;
+		box-shadow: 1px 4px 20px #bababa;
+		width: inherit;
+		text-align: center;
+	}
+
+	.content a:hover {
+		background-color: #d7a509;
+		-webkit-transition: all 0.6s;
+		-moz-transition: all 0.6s;
+		-o-transition: all 0.6s;
+		transition: all 0.6s;
+	}
+
+	/* CONTENT 2 */
+	.content2 {
+		flex: 30%;
+		padding: 47px 20px 20px 20px;
+	}
+
+	.content2 img {
+		width: 100%;
+		height: auto;
+		padding: 0px 0px 20px 0px;
+	}
+
+
+	.content2 h1 {
+		font-size: 32px;
+	}
+
+
+
+	.content2 a:hover {
+		background-color: #d7a509;
+		-webkit-transition: all 0.6s;
+		-moz-transition: all 0.6s;
+		-o-transition: all 0.6s;
+		transition: all 0.6s;
+	}
+	
+	.content3 {
+		padding-top: 47px;
+	}
+
+
+	footer {
+		height: 30px;
+	}
+
+	footer ul li a {
+		display: none;
+
+	}
+
+	/* Create two unequal columns that sits next to each other */
+	/* Sidebar/left column */
+	aside {
+		float: right;
+		width: 270px;
+		height: 100%;
+		margin-right: 15%;
+		margin-top: 59px;
+		padding: 0px 20px 20px 20px;
+		background-color: #eee;
+	}
+
+	aside h2 {
+		font-family: 'Sumana', serif;
+		font-weight: 700;
+		font-size: 25px;
+		color: #fec30d;
+	}
+
+	aside a {
+		text-decoration: none;
+		color: #000;
+	}
+
+
+	aside img {
+		width: 32px;
+		height: auto;
+		padding-top: 20px;
+
+	}
+
+	.stor {
+		width: 233px;
+		height: auto;
+	}
+
+	aside ul {
+
+		width: 100%;
+		padding: 0px;
+	}
+
+
+	aside ul li {
+
+		width: 100%;
+		color: #fff;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	aside a {
+		font-family: 'Sumana', serif;
+		line-height: 25px;
+	}
+	
+	form {
+	padding-top: 51px;
+	
+}
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Travel Guide – Budgetberegner</title>
+    <meta name="description" content="Beregn den smalede billetudgift for rejsen">
+    <link rel="stylesheet" href="../css/style.css">
+    
+<link rel="shortcut icon" type="image/png" href="../images/favicon.ico"/>
+     
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+      
+<script language="javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script language="javascript">
+  $(document).ready(function() {
+  
+         $('.checkproduct').click(function(){
+				var totalAmount = 0;
+				$('.checkproduct').each(function() {
+						if($(this).attr('checked')){
+							totalAmount += parseInt($(this).val());
+						}
+				});
+				$('#totals').val(totalAmount);
+         });
+  });
+</script>  
+
+</head>
+  
+<body>
+
+<!-- HEADER -->
+
+	<header>
+<nav>
+
+<ul>
+	<li><a href="../index.html" title="Gå til forsiden"><br>Hjem</a></li>
+    <li><a href="../pages/budget.html" title="Gå til budgetberegner"><br>Budget</a></li>
+    <li><a href="../pages/attraktioner.html" title="Gå til attraktioner"><br>Attraktioner</a></li>
+    <li><a href="#" title="Find rejsetider"><br>Rejsetider</a></li>
+    <li><a href="#" title="Nyttige links"><br>Links</a></li>
+  </ul>	
+	
+</nav>
+
+	<div class="logo">
+	<a href="../index.html"><img src="../images/NYC-travel-guide-logo.png" alt="NYC Travel Guide logo"></a>
+	</div>
+	
+</header>
+
+<aside>
+<h2>Ugens vejrudsigt</h2>
+<iframe src="https://www.meteoblue.com/en/weather/widget/daily/new-york_united-states-of-america_5128581?geoloc=fixed&days=5&tempunit=CELSIUS&windunit=METER_PER_SECOND&precipunit=MILLIMETER&coloured=monochrome&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&uv=0&humidity=0&precipitation=0&precipitationprobability=0&precipitationprobability=1&spot=0&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 240px;height: 262px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/forecast/week/new-york_united-states-of-america_5128581?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank"></a>
+   </div>
+   
+   <h2>Find deals i NYC</h2>
+   <a href="#"><img class="stor" src="../images/groupon-nyc-deals.jpg" alt="Groupons i NYC"></a>
+
+  <h2>Hurtige genveje</h2>
+   <ul>
+    <li><a href="../pages/budget.html" title="Beregn budget"><img class="ikon" src="../images/okonomi.png"><br>Budget</a></li>
+    <li><a href="../pages/attraktioner.html" title="Se attraktioner"><img class="cirkel" src="../images/attraktioner.png"><br>Attraktioner</a></li>
+    <li><a href="#" title="Find flytider"><img class="ikon" src="../images/fly.png"><br>Rejsetider</a></li>
+    <li><a href="#" title="Nyttige links"><img class="ikon" src="../images/links.png"><br>Links</a></li>
+  </ul>
+	
+</aside>
+
+<section class="row">
+ 
+<form>
+<h1>Prisberegner</h1>
+<p>Via denne formular, kan du beregne hvilke omkostninger der er forbundet med hver enkelt seværdighed. Resultatet kan du bruge i din rejseplanlægning.</p><br /><br />
+
+	<input class="checkproduct" type="checkbox" name="product1" value="145"><p>  Frihedsgudinden inkl. adgang til "toppen" - 145 kr.</p><br />
+  
+	<input class="checkproduct" type="checkbox" name="product2" value="330"><p>  Empire State Buliding express billet - 330 kr.</p><br />
+  
+	<input class="checkproduct" type="checkbox" name="product3" value="240"><p>  One World trade center - 240 kr.</p><br />
+
+	<input class="checkproduct" type="checkbox" name="product4" value="145"><p>  9/11 Memorial Museum - 145 kr.</p><br />
+
+<input class="checkproduct" type="checkbox" name="product5" value="120"><p>  The Metropolitan Museum of Art - 120 kr.</p><br />
+
+	<input class="checkproduct" type="checkbox" name="product6" value="218"><p>  Top of the rock viewpoint - 218 kr.</p><br />
+
+	<input class="checkproduct" type="checkbox" name="product7" value="180"><p>  Woodbury Common Premium Outlets - 180 kr.</p><br />
+
+
+	<input class="checkproduct" type="checkbox"  name="product8" value="120"><p>  Museum Of Modern Art - 120 kr.</p><br />
+
+	<input class="checkproduct" type="checkbox" name="product9" value="110"><p>  Guggenheim museum - 110 kr.</p><br />
+
+	<h2>Total ca. pris:</h2> <input type="text" id="totals" value="vises i kroner">
+</form>
+ 
+	
+</section>
+
+
+<footer>
+<ul>
+	<li><a href="../index.html" title="Gå til forsiden"><img class="ikon" src="../images/home.png"><br>Hjem</a></li>
+    <li><a href="../pages/budget.html" title="Beregn budget"><img class="ikon" src="../images/okonomi.png"><br>Budget</a></li>
+    <li><a href="../pages/attraktioner.html" title="Se attraktioner"><img class="cirkel" src="../images/attraktioner.png"><br>Attraktioner</a></li>
+    <li><a href="#" title="Find flytider"><img class="ikon" src="../images/fly.png"><br>Rejsetider</a></li>
+    <li><a href="#" title="Nyttige links"><img class="ikon" src="../images/links.png"><br>Links</a></li>
+  </ul>
+	
+</footer>
+		
+</body>
+
+</html>
+	
