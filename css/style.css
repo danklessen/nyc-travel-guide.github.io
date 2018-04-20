@@ -181,7 +181,7 @@ section {
 }
 
 .content2 h2 {
-	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-family: 'Sumana', serif;
 	font-size: 16px;
 	padding-bottom: 5px;
 	color: dimgray;
@@ -255,19 +255,12 @@ section {
 }
 
 .content3 h2 {
-	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-family: 'Sumana', serif;
 	font-size: 16px;
 	padding-bottom: 5px;
 	color: dimgray;
 }
 
-.content3 h4 {
-	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
-	font-size: 14px;
-	font-weight: lighter;
-	padding-bottom: 15px;
-	color: dimgray;
-}
 
 .content3 p {
 	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
@@ -329,7 +322,7 @@ form p {
 
 
 #totals {
-	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light';
+	font-family: 'Sumana', serif;
 	padding: 20px 20px 20px 20px;
 	line-height: 25px;
 	font-size: 16px;
@@ -565,7 +558,9 @@ form p {
 
 
 	.content2 h1 {
+		font-family: 'Sumana', serif;
 		font-size: 32px;
+		
 	}
 
 
@@ -595,6 +590,7 @@ form p {
 	/* Create two unequal columns that sits next to each other */
 	/* Sidebar/left column */
 	aside {
+		font-family: 'Sumana', serif;
 		float: right;
 		width: 270px;
 		height: 100%;
