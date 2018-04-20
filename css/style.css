@@ -37,6 +37,8 @@ nav {
 
 }
 
+
+
 #slide h1 {
 	text-align: center;
 	font-family: 'helvetica', serif;
@@ -45,11 +47,16 @@ nav {
 	font-size: 35px;
 	color: #fff;
 	word-wrap: break-word;
-	padding-top: 45%;
+	padding-top: 30%;
 	margin: 0;
 	width: 100%;
 	text-shadow: 1px 1px 10px #444;
 
+}
+
+@font-face {
+    font-family: 'Phosphate', serif;
+    src: url(images/Phosphate.ttc) format("truetype");
 }
 
 #slide h2 {
